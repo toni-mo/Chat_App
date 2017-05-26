@@ -4,7 +4,7 @@ var io = require('socket.io')(http);
 
 app.get('/', function(req, res){
 	// res.send('<h1>Old school html you see :) </h1>');
-	res.sendFile(__dirname + '/index.html');
+	res.sendFile(__dirname + 'index.html');
 });
 
 io.on('connection', function(socket){
