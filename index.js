@@ -19,6 +19,6 @@ io.on('connection', function(socket){
 	});
 });
 
-http.listen(3000, function(){
+http.listen('https://sleepy-sierra-54437.herokuapp.com/', function(){
 	console.log('listening on *: 3000');
 });
